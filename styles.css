@@ -45,7 +45,7 @@ img {
     border-radius: 50%;
     width: 10rem;
     height: 10rem;
-    border: 0.1rem solid #dbdbdb;
+    border: 0.1rem solid #087b64;
 }
 
 .profile-user-settings, .profile-stats, .profile-bio {
@@ -98,8 +98,8 @@ img {
 /* Gallery Section */
 .gallery {
     display: flex;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
+    flex-wrap: wrap;
+    margin: -1rem -1rem;
     padding-bottom: 3rem;
 }
 
